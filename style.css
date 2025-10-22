@@ -1,0 +1,55 @@
+.parent{
+    background-color: aliceblue;
+    border-radius: 35PX;
+    padding: 50px;
+    margin: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.header h1{
+
+}
+
+.header a{
+    background-color: #04AA6D;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.parent a .tambah{
+    background-color: blue;
+}
+
+
+.parent table{
+    border: 1px black solid;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.parent table td{
+    padding: 10px;
+    text-align: center;
+}
+
+.parent table th{
+    padding: 5px;
+}
