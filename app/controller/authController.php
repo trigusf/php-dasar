@@ -20,7 +20,7 @@ if ($result->num_rows > 0) {
         header ('Location: ../views/dashboard.php');
         exit();
     }else {
-        header ('Location: ../views/dashboard.php');
+        echo "password salah";
         
     }
 }else {

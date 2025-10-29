@@ -15,5 +15,6 @@
         <input type="password" name="password" id="" placeholder="Password">
         <button type="submit">helnah</button>
     </form>
+    <span>belum punya akun? <a href="app/model/register.php">Register</a></span>
 </body>
 </html>
