@@ -1,13 +1,13 @@
 <?php
 
-include 'db.php';
+include '../database/db.php';
 if (isset($_POST['submit'])) {
     $nama = $_POST['nama'];
     $usia = $_POST['usia'];
     $email = $_POST['email'];
 
-mysqli_query($conn, "INSERT INTO tb_users (nama, usia, email) VALUES ('$nama', '$usia', '$email')");
-header('Location: index.php');
+mysqli_query($conn, "INSERT INTO tb_users (username, usia, email) VALUES ('$nama', '$usia', '$email')");
+header('Location: ../views/dashboard.php');
 
 }
 ?>
